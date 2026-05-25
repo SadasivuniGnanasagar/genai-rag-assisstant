@@ -30,10 +30,10 @@ class ChatRequest(BaseModel):
 
 
 # Health Check API
-@app.get("/health")
+@app.get("/")
 def health():
     return {
-        "status": "healthy"
+        "status": "working"
     }
 
 
