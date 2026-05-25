@@ -31,7 +31,7 @@ class ChatRequest(BaseModel):
 
 # Health Check API
 @app.get("/")
-def health():
+def home():
     return {
         "status": "working"
     }
