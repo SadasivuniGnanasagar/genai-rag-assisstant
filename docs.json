@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Reset Password",
+    "content": "Users can reset their password from Settings > Security."
+  },
+  {
+    "title": "Account Deletion",
+    "content": "Users can delete their account from Account Settings."
+  },
+  {
+    "title": "Refund Policy",
+    "content": "Refunds are processed within 5 business days."
+  },
+  {
+    "title": "Subscription",
+    "content": "Users can upgrade subscriptions from Billing Settings."
+  },
+  {
+    "title": "IPL 2025",
+    "content": "IPL 2025 was won by Chennai Super Kings. MS Dhoni was the captain."
+  },
+  {
+    "title": "Office Hours",
+    "content": "Support is available from 9 AM to 6 PM."
+  },
+  {
+    "title": "Contact Support",
+    "content": "Users can contact support via email at support@example.com."
+  },
+  {
+    "title": "Privacy Policy",
+    "content": "Our privacy policy can be found at www.example.com/privacy."
+  },
+  {
+    "title": "Terms of Service",
+    "content": "Our terms of service can be found at www.example.com/terms."
+  }
+]
