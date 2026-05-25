@@ -1,6 +1,18 @@
-from sentence_transformers import SentenceTransformer
+import google.generativeai as genai
+import os
+from dotenv import load_dotenv
 
-model = SentenceTransformer('all-MiniLM-L6-v2')
+load_dotenv()
 
-def generate_embedding(text: str):
-    return model.encode(text).tolist()
+genai.configure(
+    api_key=os.getenv("GOOGLE_API_KEY")
+)
+
+def generate_embedding(text):
+
+    response = genai.embed_content(
+        model="models/embedding-001",
+        content=text
+    )
+
+    return response["embedding"]
