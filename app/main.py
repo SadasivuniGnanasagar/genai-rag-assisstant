@@ -18,7 +18,7 @@ from app.prompts.prompt_builder import build_prompt
 # Initialize FastAPI
 app = FastAPI()
 
-
+print("Application starting...")
 # Load documents into vector DB at startup
 load_documents()
 
